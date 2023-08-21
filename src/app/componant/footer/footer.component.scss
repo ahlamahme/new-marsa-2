@@ -1,0 +1,67 @@
+.logo-img{
+    width: auto;
+    height: 50px;
+    margin: 20px;
+  }
+  footer{
+    background: linear-gradient(45deg,#3372B8,#004796);
+  }
+  p{
+    color: white;
+    font-size: 12px;
+
+    ;}
+    @keyframes moveDiv {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(95px);
+        }
+      }
+    .progress {
+        width: 100px;
+        height: 4px;
+        background: white;
+        border-radius: 100px;
+        position: relative;
+        margin: auto;
+      }
+      .pro{
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        position: absolute;
+        background: #ff681a;
+        animation-name: example;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation: moveDiv 2s infinite alternate;
+      }
+      .fab , .fas{
+
+        color: white;
+        margin: 6px;
+      }
+      .join-box{
+        height: 30px;
+        width: 250px;
+        border-radius: 50px;
+      }
+      .white{
+        background-color: white;
+        width: 75%;
+      }
+      .orange{
+        width: 25%;
+        background-color: #ff681a;
+        font-size: 14px;
+        color: white;
+        padding: 3px;
+
+      }
+      a{
+        color: white;
+      }
+
+

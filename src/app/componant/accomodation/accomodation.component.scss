@@ -1,0 +1,43 @@
+
+.owl-item {
+    border-radius: 20px;
+    opacity: 1;
+    width: 25%;
+    height: 300px;
+ }
+ .carousel-caption {
+     text-align: left;
+     padding: 0;
+   }
+ .fas{
+     color: #004796;
+     margin: 3px;
+     
+ }
+ .custom{
+     background-color:#004796;
+     margin: 50px;
+     border-color:#004796;
+     border-radius: 5px;
+     color: #FFF;
+ }
+ .orange{
+   color: #FF681A;
+   font-weight: bold;
+ }
+ .blue{ color: #004796;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+ }
+ .bold-blue{
+   color: #004796 !important;
+   font-weight: bold;
+
+   font-size: 1.2rem;
+ }
+ .hover-zoom {
+     transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+   }
+   .hover-zoom:hover {
+     transform: scale(1.2); /* Increase the scale of the image on hover */
+   }

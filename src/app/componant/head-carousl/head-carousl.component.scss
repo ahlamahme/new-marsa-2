@@ -1,0 +1,85 @@
+@media (max-width: 576px) {
+    .h3-responsive {
+      font-size: 1.5rem; /* Adjust the font size as needed */
+    }
+
+    .p-responsive {
+      font-size: 0.875rem; /* Adjust the font size as needed */
+    }
+  }
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+  }
+
+  select{
+
+    height: 30px;
+    margin-bottom: 5px;
+    width: 140px;
+    border-radius: 5px;
+
+}
+
+.owl-carousel{
+
+
+    background-size: cover;
+
+}
+.carousel-inner{
+    position: relative;
+}
+.whats-img{
+    position: absolute;
+    top:80%;
+    left: 5%;
+    z-index: 1;
+}
+.circle{
+    position: absolute;
+    top:80%;
+    right: 5%;
+    right: 0;
+    z-index: 1;
+
+}
+
+
+.carousel-caption{
+    top:30%;
+
+}
+.card {
+
+    border-radius: 20px;
+    color: #004796;
+
+    transform: translateY(-50%);
+    z-index: 1;
+
+}
+.card-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+button{
+    background-color: orange;
+    height: 30px;
+    padding: 0 5px 5px 5px;
+}
+
+
+
+
+
+

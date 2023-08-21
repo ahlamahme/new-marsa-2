@@ -1,0 +1,27 @@
+
+   
+   <owl-carousel-o [options]="carouselOptions">
+    <ng-template carouselSlide *ngFor="let slide of images">
+   <div class="container py-5">
+    <div class="row">
+      <div class="col-md-6  col-12">
+        <h1 class="blue d-flex justify-content-start"> {{slide[2]}}</h1>
+        <p> {{slide[0]}}</p>
+        <!-- Content for the first column -->
+      </div>
+      <div class="col-md-6 col-12 ">
+        <div style="background-image: url({{slide[1]}});" class="carousel-image px-5"></div>
+        
+        <!-- <div class="img-city"> <img [src]="slide[1]" [title]="slide[2]"></div> -->
+        <!-- Content for the second column -->
+      </div>
+    </div>
+    <div class=" d-flex justify-content-start">
+      <button class="custom">Explor</button>
+    </div>
+  </div>
+</ng-template>
+</owl-carousel-o>
+
+
+   

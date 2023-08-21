@@ -1,0 +1,29 @@
+<div class="text-center py-5">
+    <p class="blue ">Accommdation</p>
+    <h1 class="bold-blue">Lets Discover Our  <span class="orange">Hotels</span></h1>
+    <app-rang-lider></app-rang-lider>
+  </div>
+  <div class="  text-center py-4 ">
+    <owl-carousel-o [options]="customOptions" >
+      <ng-container *ngFor="let slide of slidesStore">
+        <ng-template carouselSlide class="owl-stage"  >
+            <div style="background-image: url({{slide.image}});" class="owl-item carousel-image hover-zoom">
+            </div>
+          <!-- <img [src]="slide.image" class="owl-item carousel-image hover-zoom">  -->
+        </ng-template>
+      </ng-container>
+
+    </owl-carousel-o>
+  </div>
+
+    <div class="d-flex justify-content-end py-2">
+      <a class="bold-blue">Explore</a>
+      <i class="fas fa-arrow-right py-1"></i>
+    </div>
+
+
+
+
+
+
+
